@@ -2,13 +2,10 @@
 
 def safe_print_division(a, b):
     try:
-        result = a / b
-    except ZeroDivisionError:
-        result = None
-        print("Error: Division by zero")
-    except Exception as e:
-        result = None
-        print("Error:", e)
+        div = a / b
+    except (TypeError, ZeroDivisionError):
+        div = None
     finally:
-        print("Inside result: {}".format(result))
-        return result
+        print("Inside result: {}".format(div))
+    return (div)
+
