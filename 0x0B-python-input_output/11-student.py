@@ -3,7 +3,7 @@
 
 
 class Student:
-    """A class representing a student.""" 
+    """A class representing a student."""
 
     def __init__(self, first_name, last_name, age):
         """Initialize a new Student.
