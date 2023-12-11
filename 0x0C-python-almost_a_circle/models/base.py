@@ -121,11 +121,6 @@ class Base:
             list_rectangles (list): A list of Rectangle objects to draw.
             list_squares (list): A list of Square objects to draw.
         """
-        if "DISPLAY" in os.environ:
-            turt = turtle.Turtle()
-
-        else:
-            print("Running in headless mode. Skipping turtle module.")
 
         turt = turtle.Turtle()
         turt.screen.bgcolor("#b7312c")
