@@ -112,4 +112,3 @@ class Base:
         list_ins = [cls.create(**item) for item in matrix]
 
         return list_ins
-

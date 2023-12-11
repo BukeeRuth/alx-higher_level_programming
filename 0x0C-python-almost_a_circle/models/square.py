@@ -61,4 +61,3 @@ class Square(Rectangle):
                 dict_res[key] = getattr(self, key)
 
         return dict_res
-

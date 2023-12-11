@@ -110,4 +110,3 @@ class Rectangle(Base):
         """ Method that returns a dictionary with properties """
         list_atr = ['id', 'width', 'height', 'x', 'y']
         return {key: getattr(self, key) for key in list_atr}
-
