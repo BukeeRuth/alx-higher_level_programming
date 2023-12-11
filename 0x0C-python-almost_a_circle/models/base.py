@@ -4,6 +4,7 @@ import json
 import csv
 import os.path
 
+
 class Base:
     """ Class Base """
     __nb_objects = 0
@@ -111,3 +112,4 @@ class Base:
         list_ins = [cls.create(**item) for item in matrix]
 
         return list_ins
+
