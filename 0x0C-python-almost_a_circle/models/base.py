@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A Module that contains the Base class """
+""" Module that contains class Base """
 import json
 import csv
 import os.path
