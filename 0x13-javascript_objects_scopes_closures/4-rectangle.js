@@ -16,10 +16,10 @@ class Rectangle {
       console.log(s);
     }
   }
-rotate () {
+  rotate () {
     const temp = this.width;
     this.width = this.height;
-    this.height = aux;
+    this.height = temp;
   }
 
   double () {
